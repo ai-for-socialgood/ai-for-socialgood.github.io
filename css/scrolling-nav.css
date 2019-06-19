@@ -12,5 +12,6 @@ section {
 }
 
 a {
-  color: aliceblue;
+  /*color: aliceblue; */
+  color: inherit;
 }
