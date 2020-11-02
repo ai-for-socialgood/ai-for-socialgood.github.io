@@ -15,3 +15,37 @@ a {
   /*color: aliceblue; */
   color: inherit !important ;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 2px;
+}
+
+.title-col {
+  width: 60%;
+}
+
+a, a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.rotate {
+  width: 80px;
+  height: 80px;
+  /* FF3.5+ */
+  -moz-transform: rotate(-90.0deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(-90.0deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(-90.0deg);
+  /* IE6,IE7 */
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+  /* Standard */
+  transform: rotate(-90.0deg);
+}
